@@ -1,0 +1,32 @@
+#########################################
+# vit_cifar100.sub  (use absolute paths)
+#########################################
+
+# Where the job will run:
+initialdir = /home/svdighe/capsnet_project/vit_run
+
+# Wrapper that launches the Conda env:
+executable = /home/svdighe/capsnet_project/vit_run/code/conda_wrapper.sh
+
+# Script and its arguments:
+arguments  = /home/svdighe/capsnet_project/vit_run/code/train_vit_cifar100.py \
+             --output-dir /home/svdighe/capsnet_project/vit_run/results/run$(Cluster).$(Process)
+
+# Files Condor must stage onto the execute node:
+transfer_input_files = /home/svdighe/capsnet_project/vit_run/code/conda_wrapper.sh, \
+                       /home/svdighe/capsnet_project/vit_run/code/train_vit_cifar100.py
+
+# Log, stdout, stderr — all inside logs/  (folder already exists)
+output = /home/svdighe/capsnet_project/vit_run/logs/$(Cluster)_$(Process).out
+error  = /home/svdighe/capsnet_project/vit_run/logs/$(Cluster)_$(Process).err
+log    = /home/svdighe/capsnet_project/vit_run/logs/vit_cifar100.log
+
+Requirements = CUDADriverVersion >= 12.0
+
+# Resources
+# request_cpus        = 1
+request_memory      = 16GB
++request_gpus       = 1
+
+queue
+

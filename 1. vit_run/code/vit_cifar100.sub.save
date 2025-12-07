@@ -1,0 +1,12 @@
+universe            = vanilla
+executable          = code/conda_wrapper.sh
+arguments           = code/train_vit_cifar100.py --output-dir $(HOME)/capsnet_project/vit_run/results/run$(Cluster).$(Process)
+initialdir = code/
+transfer_input_files = code/train_vit_cifar100.py
+output              = logs/$(Cluster)_$(Process).out
+error               = logs/$(Cluster)_$(Process).err
+log                 = logs/condor.log
+request_cpus        = 1
+request_memory      = 16GB
+request_gpus       = 1
+queue

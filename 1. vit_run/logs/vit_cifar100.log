@@ -1,0 +1,251 @@
+000 (017.000.000) 2025-04-23 15:17:16 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+009 (017.000.000) 2025-04-23 15:18:33 Job was aborted.
+	via condor_rm (by user svdighe)
+...
+000 (018.000.000) 2025-04-23 15:19:00 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (018.000.000) 2025-04-23 15:19:20 Job executing on host: <10.5.221.244:9618?addrs=10.5.221.244-9618&alias=OG-NODE-10-5-221-244&noUDP&sock=startd_1517_1d42>
+...
+006 (018.000.000) 2025-04-23 15:19:22 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (018.000.000) 2025-04-23 15:19:22 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :        7        7     22856 
+	   Memory (MB)          :        0    16384     16384 
+
+	Job terminated of its own accord at 2025-04-23T19:19:21Z with exit-code 1.
+...
+000 (019.000.000) 2025-04-23 15:24:37 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (019.000.000) 2025-04-23 15:25:08 Job executing on host: <10.5.141.106:9618?addrs=10.5.141.106-9618&alias=CRUSH-OG-10-5-141-106&noUDP&sock=startd_325208_3782>
+...
+006 (019.000.000) 2025-04-23 15:25:16 Image size of job updated: 89000
+	12  -  MemoryUsage of job (MB)
+	12088  -  ResidentSetSize of job (KB)
+...
+006 (019.000.000) 2025-04-23 15:26:26 Image size of job updated: 2484604
+	12  -  MemoryUsage of job (MB)
+	12088  -  ResidentSetSize of job (KB)
+...
+005 (019.000.000) 2025-04-23 15:26:26 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:21, Sys 0 00:00:05  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:21, Sys 0 00:00:05  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.29        1         1 
+	   Disk (KB)            :     7           7     29714 
+	   Memory (MB)          :    12       16384     16384 
+
+	Job terminated of its own accord at 2025-04-23T19:26:26Z with exit-code 1.
+...
+000 (020.000.000) 2025-04-24 14:33:28 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (020.000.000) 2025-04-24 14:33:57 Job executing on host: <10.5.245.111:9618?addrs=10.5.245.111-9618&alias=CRUSH-OG-10-5-245-111&noUDP&sock=startd_3749927_984d>
+...
+006 (020.000.000) 2025-04-24 14:34:05 Image size of job updated: 1622552
+	126  -  MemoryUsage of job (MB)
+	128308  -  ResidentSetSize of job (KB)
+...
+006 (020.000.000) 2025-04-24 14:34:33 Image size of job updated: 3825676
+	126  -  MemoryUsage of job (MB)
+	128308  -  ResidentSetSize of job (KB)
+...
+005 (020.000.000) 2025-04-24 14:34:34 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :       10       10     30260 
+	   Memory (MB)          :      126    16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T18:34:33Z with exit-code 1.
+...
+000 (021.000.000) 2025-04-24 14:43:51 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (021.000.000) 2025-04-24 14:44:15 Job executing on host: <10.5.245.111:9618?addrs=10.5.245.111-9618&alias=CRUSH-OG-10-5-245-111&noUDP&sock=startd_3749927_984d>
+...
+006 (021.000.000) 2025-04-24 14:44:24 Image size of job updated: 300984
+	140  -  MemoryUsage of job (MB)
+	143112  -  ResidentSetSize of job (KB)
+...
+006 (021.000.000) 2025-04-24 14:44:53 Image size of job updated: 20966708
+	141  -  MemoryUsage of job (MB)
+	143376  -  ResidentSetSize of job (KB)
+...
+005 (021.000.000) 2025-04-24 14:44:53 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:12, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:12, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       10       10     30260 
+	   Memory (MB)          :      141    16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T18:44:53Z with exit-code 1.
+...
+000 (022.000.000) 2025-04-24 15:13:10 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (022.000.000) 2025-04-24 15:13:31 Job executing on host: <10.5.36.5:9618?addrs=10.5.36.5-9618&alias=CRUSH-NODE-10-5-36-5&noUDP&sock=startd_1163_4cbb>
+...
+006 (022.000.000) 2025-04-24 15:13:35 Image size of job updated: 64812
+	1  -  MemoryUsage of job (MB)
+	148  -  ResidentSetSize of job (KB)
+...
+005 (022.000.000) 2025-04-24 15:13:35 Job terminated.
+	(1) Normal termination (return value 2)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       10       10     23178 
+	   GPUs                 :                           1 "GPU-91d5b232"
+	   Memory (MB)          :        1    16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T19:13:35Z with exit-code 2.
+...
+000 (023.000.000) 2025-04-24 15:41:15 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (023.000.000) 2025-04-24 15:41:30 Job executing on host: <10.5.36.5:9618?addrs=10.5.36.5-9618&alias=CRUSH-NODE-10-5-36-5&noUDP&sock=startd_1163_4cbb>
+...
+006 (023.000.000) 2025-04-24 15:41:38 Image size of job updated: 4129700
+	24  -  MemoryUsage of job (MB)
+	24476  -  ResidentSetSize of job (KB)
+...
+006 (023.000.000) 2025-04-24 15:42:58 Image size of job updated: 90166360
+	25  -  MemoryUsage of job (MB)
+	24608  -  ResidentSetSize of job (KB)
+...
+005 (023.000.000) 2025-04-24 15:42:58 Job terminated.
+	(1) Normal termination (return value 1)
+		Usr 0 00:00:29, Sys 0 00:00:06  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:29, Sys 0 00:00:06  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :       10       10     23178 
+	   GPUs                 :                           1 "GPU-91d5b232"
+	   Memory (MB)          :       25    16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T19:42:58Z with exit-code 1.
+...
+000 (024.000.000) 2025-04-24 15:48:52 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (024.000.000) 2025-04-24 15:49:14 Job executing on host: <10.5.36.5:9618?addrs=10.5.36.5-9618&alias=CRUSH-NODE-10-5-36-5&noUDP&sock=startd_1163_4cbb>
+...
+006 (024.000.000) 2025-04-24 15:49:22 Image size of job updated: 4175496
+	127  -  MemoryUsage of job (MB)
+	129552  -  ResidentSetSize of job (KB)
+...
+006 (024.000.000) 2025-04-24 15:54:22 Image size of job updated: 91044232
+	4789  -  MemoryUsage of job (MB)
+	4903384  -  ResidentSetSize of job (KB)
+...
+005 (024.000.000) 2025-04-24 15:55:23 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:18:39, Sys 0 00:01:50  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:18:39, Sys 0 00:01:50  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        0.51        1         1 
+	   Disk (KB)            :       10          10     23178 
+	   GPUs                 : 29528451.91                  1 "GPU-91d5b232"
+	   GpusMemory (MB)      :     3460                       
+	   Memory (MB)          :     4789       16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T19:55:23Z with exit-code 0.
+...
+000 (025.000.000) 2025-04-24 18:21:14 Job submitted from host: <10.5.0.123:9618?addrs=10.5.0.123-9618&alias=its-og-login5.syr.edu&noUDP&sock=schedd_1770_a6b8>
+...
+001 (025.000.000) 2025-04-24 18:21:31 Job executing on host: <10.5.36.5:9618?addrs=10.5.36.5-9618&alias=CRUSH-NODE-10-5-36-5&noUDP&sock=startd_1163_4cbb>
+...
+006 (025.000.000) 2025-04-24 18:21:40 Image size of job updated: 192908
+	77  -  MemoryUsage of job (MB)
+	78332  -  ResidentSetSize of job (KB)
+...
+006 (025.000.000) 2025-04-24 18:26:41 Image size of job updated: 95449328
+	4693  -  MemoryUsage of job (MB)
+	4805048  -  ResidentSetSize of job (KB)
+...
+006 (025.000.000) 2025-04-24 18:31:41 Image size of job updated: 95449328
+	4796  -  MemoryUsage of job (MB)
+	4910104  -  ResidentSetSize of job (KB)
+...
+006 (025.000.000) 2025-04-24 18:36:41 Image size of job updated: 95473848
+	4798  -  MemoryUsage of job (MB)
+	4912900  -  ResidentSetSize of job (KB)
+...
+006 (025.000.000) 2025-04-24 18:46:43 Image size of job updated: 95474128
+	4798  -  MemoryUsage of job (MB)
+	4912900  -  ResidentSetSize of job (KB)
+...
+006 (025.000.000) 2025-04-24 18:51:43 Image size of job updated: 95502792
+	4798  -  MemoryUsage of job (MB)
+	4912900  -  ResidentSetSize of job (KB)
+...
+005 (025.000.000) 2025-04-24 18:52:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:46:23, Sys 0 00:09:43  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:46:23, Sys 0 00:09:43  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :       Usage  Request Allocated Assigned
+	   Cpus                 :        1.48        1         1 
+	   Disk (KB)            :       10          10     23178 
+	   GPUs                 : 51839441.26                  1 "GPU-91d5b232"
+	   GpusMemory (MB)      :     3920                       
+	   Memory (MB)          :     4798       16384     16384 
+
+	Job terminated of its own accord at 2025-04-24T22:52:43Z with exit-code 0.
+...
